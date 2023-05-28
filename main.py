@@ -1,5 +1,5 @@
 import pygame, sys
-from settings import *
+from settings import WORLD_MAP, TILESIZE, WIDTH, HEIGHT, FPS
 from level import Level
 
 
@@ -28,3 +28,4 @@ class Game():
 if __name__ == '__main__':
     game = Game()
     game.run()
+
